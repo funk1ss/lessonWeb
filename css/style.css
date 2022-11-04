@@ -1,0 +1,496 @@
+*,*::after,*::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Open Sans', sans-serif; */
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 53px;
+text-transform: uppercase;
+
+
+/* Dark */
+
+color: #ffffff;
+
+
+}
+.stylish{
+    height: 200px;
+    padding-top: 50px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo img{
+    /* border: 2px solid red;*/
+
+}
+.span {
+   /* border: 2px solid red;*/
+    padding: 20px;
+    background-color: #F7654A;
+    text-align: right;
+}
+.span span{
+    display: block;
+    width: 21px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: black;
+    
+}
+.img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.header {
+    background-image:url(../img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.fon h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4em;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin: 0 auto; 
+}
+.fon p {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.200em;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+
+/* White */
+
+color: #FFFFFF;
+}
+.table p {
+    position: absolute;
+    width: 190px;
+    height: 43px;
+    left: 755px;
+    top: 758px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /*black*/
+
+    color: #000000;
+
+}
+.pod {
+    
+    width: 100%;
+    background-color: #F7F7F7;
+    color: #000000;
+    padding: 57px 130px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0 30px;
+    position: relative;
+    top: -50px;
+}
+.hi h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F7654A;
+
+}
+.hi h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+
+    color: #000000;
+
+}
+
+.hi p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    padding: 2px;
+
+    color: #999999;
+}
+
+.bul {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 130px;
+
+    /* Dark */
+
+    color: #404149;
+}
+
+.font {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.po img {
+    display: block;
+    max-width: 100%;
+}
+
+.po h3::before {
+    display: block;
+    content: "";
+    width: 55px;
+    height: 6px;
+    background: #F7654A;
+    margin-top: 45px;
+}
+
+.po h3 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+/* Dark */
+
+    color: #404149;
+}
+
+.po p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 0 30px;
+
+    color: #999999;
+}
+
+.fre {
+    background-color: #F7654A;
+    padding: 30px 0;
+}
+
+.op {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f h1 {
+    padding: 30px;
+    text-align: left;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.po{
+    display: flex;
+    flex-direction: column;
+    max-width: 33%;
+    /* flex-wrap: wrap; */
+}
+.f p {
+    padding: 10px;
+    text-align: left;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+.oneCard{
+    color: black;
+}
+.et {
+    align-self: center;
+}
+
+.rt {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    padding: 14px 30px;
+    min-width: 165px;
+    align-self: center;
+}
+
+
+.ce {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 122px;
+
+    color: #000000;
+
+}
+.kek {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px 27px;
+    justify-content: space-between;
+    padding-top: 66px;
+}
+.pl img {
+    display: block;
+    margin: 0% auto;
+
+}
+.pl {
+    background-color: #F7F7F7;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.pl h4 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-top: 4px;
+
+    color: #000000;
+}
+.partnersBackground{
+    background: #404149;
+    padding: 100px 0px;
+}
+.ourPartnersBlock{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.partners{
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ourPartnersTitle{
+    font-size: 36px;
+}
+.cardInfoBlock{
+    background: #F7F7F7;
+    color:#999999;
+    padding: 30px;
+    width: 350px;
+    height: 260px;
+    overflow: hidden;
+}
+.AboutTitle{
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+.cardText{
+    font-size: 14px; 
+    line-height: 1.5em;
+    color: gray;
+}
+.card{
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.AboutTitle{
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+.cardFooter{
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+.po{
+    max-width: 50%;
+}   
+.container{
+    max-width: 1024px;
+}
+
+
+.reg {
+    display: block;
+    color: blue;
+}
+.reg p {
+    color: blue;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partners{
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+} 
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+.po{
+    max-width: 70%;
+}
+.container{
+    max-width: 768px;
+}
+.font{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+} 
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .po{
+        max-width: 70%;
+    }
+    .container{
+        max-width: 480px;
+    }
+    .font{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pod{
+        grid-template-columns: repeat(2,1fr);
+    }
+} 
+@media all and (max-width: 500px) 
+{
+    .bul{
+        padding: 0px;
+    }
+    .fon{
+        font-size: 10px;
+    }
+    .pod{
+        padding: 0px;
+    }
+    .ce{
+        padding: 20px;
+    }
+    .po{
+        max-width: 70%;
+    }
+    .font{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pod{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .kek{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+    .op {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+.hu{
+    margin: 75px 0px;
+
+}
+.he{
+    width: 25%;
+}
+.he img{
+    width: 100%;
+}
+.my{
+    display: flex;
+
+}
+
+
