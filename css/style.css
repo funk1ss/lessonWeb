@@ -220,6 +220,7 @@ color: #FFFFFF;
 .op {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .f h1 {
@@ -372,6 +373,57 @@ color: #FFFFFF;
     color: black;
     text-align: center;
 }
+.frek{
+    background-color: #F7654A;
+    padding: 30px 0;
+    margin-top: 150px;
+}
+.cardFeedbackTitle{
+    color: #999999;
+}
+
+.cardFeedbackMob{
+    color: #000000;
+    LINE-HEIGHT: 1.5;
+
+}
+.popi{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.rut{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.cardFeedback{
+    text-align: center;
+}
+.frop{
+    background: #404149;
+}
+
+.cont{
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.cardsFeedback{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+
+.frop{
+    margin-top: 150px;
+}
 
 
 
@@ -408,22 +460,40 @@ color: #FFFFFF;
 }
 } 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-
-.po{
-    max-width: 70%;
-}
-.container{
-    max-width: 768px;
-}
-.font{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-}
+    .cardsFeedback{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
+    .po{
+        max-width: 70%;
+    }
+    .container{
+        max-width: 768px;
+    }
+    .font{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
 } 
-@media all and (min-width: 480px) and (max-width: 768px) { 
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .bul{
+        padding: 0px 60px;
+    }
+    .ce{
+        padding: 60px;
+    }
+    .op{
+        justify-content: center;
+    }
+    .cardsFeedback{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
     .po{
         max-width: 70%;
     }
@@ -443,6 +513,29 @@ color: #FFFFFF;
 } 
 @media all and (max-width: 500px) 
 {
+    .AboutTitle{
+        font-size: 30px;
+        padding: 0px 25px;
+    }
+    .cardText{
+        font-size: 12px;
+    }
+    .cardInfoBlock{
+        width: 260px;
+        height: 241px;
+        padding: 20px;
+    }
+    .popi{
+        font-size: 12px;
+    }
+    .rut{
+        font-size: 10px;
+    }
+    .cardsFeedback{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+    }
     .bul{
         padding: 0px;
     }
@@ -466,16 +559,17 @@ color: #FFFFFF;
         align-items: center;
     }
     .pod{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .kek{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
 
     
     .op {
         flex-direction: column;
         flex-wrap: wrap;
+        font-size: 5px;
     }
 }
 .hu{
